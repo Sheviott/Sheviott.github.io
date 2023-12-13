@@ -4139,6 +4139,12 @@ section:not(.mainscreen) {
   transform: translate(-50%, -50%);
   transition: all 0.3s ease 0s;
 }
+@media (min-width: 61.99875em) {
+  .specialists__touch {
+    width: 44px;
+    height: 44px;
+  }
+}
 .specialists__body {
   position: absolute;
   opacity: 0;
