@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <title>Главная</title>
+</head>
+
+<body id="mainpage">
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__topwhite">
+    <div class="header__topwhite__container"></div>
+  </div>
+  <div class="header__container">
+    <a data-da=".menu__list-logo, 992, 1" href="#" class="header__logo logo">
+      <img src="images/logo.svg" alt="">
+    </a>
+    <div class="header__body">
+      <nav data-da=".header__topwhite__container, 992" class="header__menu menu header__top">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#about" class="menu__link"><span>О нас</span></a></li>
+            <li class="menu__item"><a href="#specialists" class="menu__link"><span>Специалисты</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Прайс</span></a></li>
+            <li class="menu__item"><a href="#results" class="menu__link"><span>До и после</span></a></li>
+            <li class="menu__item"><a href="#reviews" class="menu__link"><span>Отзывы</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Акции</span></a></li>
+            <li class="menu__item"><a href="#news" class="menu__link"><span>Блог</span></a></li>
+            <li class="menu__item"><a href="#map" class="menu__link"><span>Контакты</span></a></li>
+          </ul>
+      </nav>
+      <nav class="header__menu menu header__bottom">
+        <ul class="menu__list menu__list-logo">
+         <div class="header__wrapper">
+            <li class="menu__item"><a href="#" class="menu__link"><span>Липопластика</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Остеокоррекция</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Релакс</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Игла разума</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Эстетика</span></a></li>
+         </div>
+         <div class="header__wrapper header__wrapper-btn">
+            <li class="menu__item"><a href="#" class="menu__link"><span>SPA-программы</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link"><span>Сертификаты</span></a></li>
+            <li class="menu__item"><a href="#" class="menu__link menu__link-icon"><span>Акции</span></a></li>
+         </div>
+        </ul>
+      </nav>
+      <div data-da=".header__topwhite__container, 992" class="header__info">
+        <div class="header__rows">
+          <div class="header__row">
+            <a href="#map" class="header__text">
+              <svg class="header__icon-black" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <g opacity="0.5">
+                <path d="M3.28253 6.23437L10.57 2.76437C11.6325 2.25812 12.7413 3.3675 12.2356 4.43062L8.76565 11.7175C8.29128 12.7131 6.85378 12.6519 6.46628 11.6187L5.82503 9.90687C5.76237 9.73987 5.6647 9.58821 5.53857 9.46208C5.41244 9.33595 5.26078 9.23828 5.09378 9.17562L3.38128 8.53375C2.34878 8.14625 2.2869 6.70875 3.28253 6.23437Z" stroke="#222222" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                </svg>
+              <svg class="header__icon-white" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <g opacity="0.5">
+                <path d="M3.28253 6.23437L10.57 2.76437C11.6325 2.25812 12.7413 3.3675 12.2356 4.43062L8.76565 11.7175C8.29128 12.7131 6.85378 12.6519 6.46628 11.6187L5.82503 9.90687C5.76237 9.73987 5.6647 9.58821 5.53857 9.46208C5.41244 9.33595 5.26078 9.23828 5.09378 9.17562L3.38128 8.53375C2.34878 8.14625 2.2869 6.70875 3.28253 6.23437Z" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                </svg>
+              
+              Брянск, ул. Дуки, д. 75</a>
+            <a href="#map" class="header-hidden header__button-link">Показать на карте</a>
+          </div>
+          <div class="header__row">
+            <a href="tel: +79191937577" class="header__text">
+              <svg class="header__icon-black" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <g opacity="0.5">
+                <path d="M13.0295 9.28477L10.2691 8.04785L10.2615 8.04434C10.1182 7.98304 9.9619 7.95845 9.8067 7.97277C9.65151 7.98709 9.50233 8.03988 9.37266 8.12637C9.35739 8.13645 9.34272 8.14741 9.32872 8.15918L7.90254 9.375C6.99903 8.93613 6.06622 8.01035 5.62735 7.11855L6.84493 5.6707C6.85665 5.65605 6.86778 5.64141 6.87833 5.62559C6.96295 5.49627 7.0143 5.34804 7.02779 5.19409C7.04128 5.04013 7.01651 4.88523 6.95567 4.74316V4.73613L5.71524 1.97109C5.63481 1.78551 5.49652 1.63091 5.32101 1.53037C5.1455 1.42984 4.94218 1.38877 4.74141 1.41328C3.94745 1.51776 3.21867 1.90768 2.69118 2.51021C2.16369 3.11275 1.87357 3.88669 1.87501 4.6875C1.87501 9.33984 5.66016 13.125 10.3125 13.125C11.1133 13.1264 11.8873 12.8363 12.4898 12.3088C13.0923 11.7813 13.4822 11.0526 13.5867 10.2586C13.6113 10.0579 13.5703 9.85462 13.4699 9.67912C13.3694 9.50362 13.215 9.36529 13.0295 9.28477ZM10.3125 12.1875C8.32405 12.1853 6.41765 11.3945 5.0116 9.9884C3.60555 8.58235 2.81468 6.67596 2.81251 4.6875C2.8103 4.11533 3.01644 3.56191 3.39243 3.13061C3.76842 2.69931 4.28854 2.41961 4.85567 2.34375C4.85544 2.34609 4.85544 2.34844 4.85567 2.35078L6.08614 5.10469L4.87501 6.5543C4.86271 6.56844 4.85155 6.58353 4.84161 6.59941C4.75343 6.73472 4.70171 6.8905 4.69144 7.05168C4.68117 7.21285 4.71272 7.37394 4.78301 7.51934C5.31387 8.60508 6.40782 9.69082 7.50528 10.2211C7.65174 10.2907 7.81377 10.3212 7.97552 10.3095C8.13727 10.2978 8.29322 10.2443 8.42813 10.1543C8.44317 10.1442 8.45765 10.1332 8.47149 10.1215L9.8959 8.90625L12.6498 10.1396H12.6563C12.5813 10.7076 12.302 11.2287 11.8707 11.6057C11.4393 11.9826 10.8854 12.1894 10.3125 12.1875Z" fill="#222222"/>
+                </g>
+                </svg>
+              <svg class="header__icon-white" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <g opacity="0.5">
+                <path d="M13.0295 9.28477L10.2691 8.04785L10.2615 8.04434C10.1182 7.98304 9.9619 7.95845 9.8067 7.97277C9.65151 7.98709 9.50233 8.03988 9.37266 8.12637C9.35739 8.13645 9.34272 8.14741 9.32872 8.15918L7.90254 9.375C6.99903 8.93613 6.06622 8.01035 5.62735 7.11855L6.84493 5.6707C6.85665 5.65605 6.86778 5.64141 6.87833 5.62559C6.96295 5.49627 7.0143 5.34804 7.02779 5.19409C7.04128 5.04013 7.01651 4.88523 6.95567 4.74316V4.73613L5.71524 1.97109C5.63481 1.78551 5.49652 1.63091 5.32101 1.53037C5.1455 1.42984 4.94218 1.38877 4.74141 1.41328C3.94745 1.51776 3.21867 1.90768 2.69118 2.51021C2.16369 3.11275 1.87357 3.88669 1.87501 4.6875C1.87501 9.33984 5.66016 13.125 10.3125 13.125C11.1133 13.1264 11.8873 12.8363 12.4898 12.3088C13.0923 11.7813 13.4822 11.0526 13.5867 10.2586C13.6113 10.0579 13.5703 9.85462 13.4699 9.67912C13.3694 9.50362 13.215 9.36529 13.0295 9.28477ZM10.3125 12.1875C8.32405 12.1853 6.41765 11.3945 5.0116 9.9884C3.60555 8.58235 2.81468 6.67596 2.81251 4.6875C2.8103 4.11533 3.01644 3.56191 3.39243 3.13061C3.76842 2.69931 4.28854 2.41961 4.85567 2.34375C4.85544 2.34609 4.85544 2.34844 4.85567 2.35078L6.08614 5.10469L4.87501 6.5543C4.86271 6.56844 4.85155 6.58353 4.84161 6.59941C4.75343 6.73472 4.70171 6.8905 4.69144 7.05168C4.68117 7.21285 4.71272 7.37394 4.78301 7.51934C5.31387 8.60508 6.40782 9.69082 7.50528 10.2211C7.65174 10.2907 7.81377 10.3212 7.97552 10.3095C8.13727 10.2978 8.29322 10.2443 8.42813 10.1543C8.44317 10.1442 8.45765 10.1332 8.47149 10.1215L9.8959 8.90625L12.6498 10.1396H12.6563C12.5813 10.7076 12.302 11.2287 11.8707 11.6057C11.4393 11.9826 10.8854 12.1894 10.3125 12.1875Z" fill="#fff"/>
+                </g>
+                </svg>
+               
+              +7 (919) 193-75-77</a>
+            <a href="" class="header-hidden header__button-link">Перезвоните мне</a>
+          </div>
+        </div>
+        <div class="header__social">
+          <div class="header-hidden header__text">Мы в соцсетях</div>
+          <div class="header__icons">
+            <a href="https://vk.com/" class="header__icon"> 
+              <svg class="header__icon-black" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#101010"/>
+                <path d="M15.3053 7.12934C15.3257 7.06224 15.3355 6.99997 15.3328 6.94445C15.3262 6.78354 15.2155 6.66666 14.9551 6.66666H13.7915C13.5319 6.66666 13.3959 6.80548 13.3131 6.96077C13.2916 7.00127 13.2733 7.04284 13.2527 7.08386C13.1072 7.37408 12.4573 8.63383 11.7218 9.49998C11.4507 9.78488 11.3129 9.77777 11.1662 9.77777C11.0875 9.77777 10.8889 9.68264 10.8889 9.42176V7.1173C10.8889 6.80888 10.812 6.66666 10.5636 6.66666H8.49735C8.31648 6.66666 8.22226 6.80888 8.22226 6.95156C8.22226 7.248 8.62134 7.31911 8.6667 8.14979V9.76C8.6667 10.1511 8.59868 10.2222 8.45204 10.2222C8.05647 10.2222 7.27781 8.88888 6.7565 7.14133C6.64361 6.79735 6.53072 6.66666 6.23695 6.66666H5.0623C4.72319 6.66666 4.66675 6.83291 4.66675 7.01069C4.66675 7.33109 4.93341 9.06356 6.38895 11.0555C7.44451 12.5 8.83512 13.3333 10.0662 13.3333C10.812 13.3333 10.8884 13.1436 10.8884 12.8471V11.5262C10.8889 11.1702 10.9702 11.1111 11.2076 11.1111C11.3769 11.1111 11.7222 11.2222 12.3889 12C13.1578 12.8969 13.2973 13.3333 13.7382 13.3333H14.9017C15.172 13.3333 15.327 13.22 15.3333 13C15.3346 12.944 15.3266 12.8813 15.3084 12.8115C15.2221 12.5556 14.8266 11.9297 14.3333 11.3333C14.0599 11.0031 13.7902 10.676 13.6662 10.4982C13.5831 10.3822 13.5515 10.3004 13.5555 10.2222C13.5619 10.092 13.7569 9.81714 13.8303 9.70936C14.2223 9.13356 15.1892 7.6927 15.3053 7.12934Z" fill="#101010"/>
+                </svg>
+                <svg class="header__icon-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#fff"/>
+                  <path d="M15.3053 7.12934C15.3257 7.06224 15.3355 6.99997 15.3328 6.94445C15.3262 6.78354 15.2155 6.66666 14.9551 6.66666H13.7915C13.5319 6.66666 13.3959 6.80548 13.3131 6.96077C13.2916 7.00127 13.2733 7.04284 13.2527 7.08386C13.1072 7.37408 12.4573 8.63383 11.7218 9.49998C11.4507 9.78488 11.3129 9.77777 11.1662 9.77777C11.0875 9.77777 10.8889 9.68264 10.8889 9.42176V7.1173C10.8889 6.80888 10.812 6.66666 10.5636 6.66666H8.49735C8.31648 6.66666 8.22226 6.80888 8.22226 6.95156C8.22226 7.248 8.62134 7.31911 8.6667 8.14979V9.76C8.6667 10.1511 8.59868 10.2222 8.45204 10.2222C8.05647 10.2222 7.27781 8.88888 6.7565 7.14133C6.64361 6.79735 6.53072 6.66666 6.23695 6.66666H5.0623C4.72319 6.66666 4.66675 6.83291 4.66675 7.01069C4.66675 7.33109 4.93341 9.06356 6.38895 11.0555C7.44451 12.5 8.83512 13.3333 10.0662 13.3333C10.812 13.3333 10.8884 13.1436 10.8884 12.8471V11.5262C10.8889 11.1702 10.9702 11.1111 11.2076 11.1111C11.3769 11.1111 11.7222 11.2222 12.3889 12C13.1578 12.8969 13.2973 13.3333 13.7382 13.3333H14.9017C15.172 13.3333 15.327 13.22 15.3333 13C15.3346 12.944 15.3266 12.8813 15.3084 12.8115C15.2221 12.5556 14.8266 11.9297 14.3333 11.3333C14.0599 11.0031 13.7902 10.676 13.6662 10.4982C13.5831 10.3822 13.5515 10.3004 13.5555 10.2222C13.5619 10.092 13.7569 9.81714 13.8303 9.70936C14.2223 9.13356 15.1892 7.6927 15.3053 7.12934Z" fill="#fff"/>
+                  </svg>
+            </a>
+              
+           <a href="http://t.me/" class="header__icon">
+            <svg class="header__icon-black" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#101010"/>
+              <path d="M8.15928 11.4885L12.1337 14.5322C12.5458 14.8089 12.8991 14.6552 13.0168 14.1018L14.636 6.16981C14.7832 5.49343 14.3711 5.18599 13.9295 5.4012L4.47932 9.21347C3.86108 9.45942 3.86108 9.8591 4.36156 10.0128L4.96145 10.2091C6.12569 10.5899 7.40025 10.4163 8.42023 9.73799L12.3986 7.09212C12.6636 6.9384 12.8991 6.99988 12.7224 7.21509" fill="#101010"/>
+              </svg>
+            <svg class="header__icon-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#fff"/>
+              <path d="M8.15928 11.4885L12.1337 14.5322C12.5458 14.8089 12.8991 14.6552 13.0168 14.1018L14.636 6.16981C14.7832 5.49343 14.3711 5.18599 13.9295 5.4012L4.47932 9.21347C3.86108 9.45942 3.86108 9.8591 4.36156 10.0128L4.96145 10.2091C6.12569 10.5899 7.40025 10.4163 8.42023 9.73799L12.3986 7.09212C12.6636 6.9384 12.8991 6.99988 12.7224 7.21509" fill="#fff"/>
+            </svg>
+          </a>
+
+
+          </div>
+        </div>
+      </div> 
+    </div>
+    <a href="#" class="btn btn-white btn-online header__button">
+      Онлайн-запись
+    </a>
+    <button class="header__burger icon-menu">
+  <span class="burger-menu__l"></span>
+  <span class="burger-menu__c"></span>
+  <span class="burger-menu__r"></span>
+</button>
+  </div>
+</header>
+
+
+    <main class="page">
+      <div id="app" class="">
+        <section id="mainpage" class="mainscreen">
+          <div class="mainscreen__wrapper">
+          <div class="swiper mainscreen__slider">
+            <div class="swiper-wrapper mainscreen__wrapper">
+                <div class="swiper-slide mainscreen__image mainscreen__slide">
+                  <picture>
+                    <source media="(max-width: 992px)" srcset="images/bg_mob.jpg, images/bg_mob@2x.jpg 2x">
+                    <img src="images/bg.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide mainscreen__image mainscreen__slide">
+                  <picture>
+                    <source media="(max-width: 992px)" srcset="images/bg_mob.jpg, images/bg_mob@2x.jpg 2x">
+                    <img src="images/bg.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide mainscreen__image mainscreen__slide">
+                  <picture>
+                    <source media="(max-width: 992px)" srcset="images/bg_mob.jpg, images/bg_mob@2x.jpg 2x">
+                    <img src="images/bg.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide mainscreen__image mainscreen__slide">
+                  <picture>
+                    <source media="(max-width: 992px)" srcset="images/bg_mob.jpg, images/bg_mob@2x.jpg 2x">
+                    <img src="images/bg.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide mainscreen__image mainscreen__slide">
+                  <picture>
+                    <source media="(max-width: 992px)" srcset="images/bg_mob.jpg, images/bg_mob@2x.jpg 2x">
+                    <img src="images/bg.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+            <div class="mainscreen__container">
+              <div class="mainscreen__head">
+
+              </div>
+              <div class="mainscreen__bottom">
+                <h1 class="mainscreen__title">Единственная в России авторская методика коррекции фигуры доктора Анны
+                  Иорданян</h1>
+                <div class="mainscreen__subtitle">Гармоничные линии тела, идеальные формы, правильные пропорции. Без
+                  диет,
+                  операций, аппаратов и разочарований.</div>
+                <div class="mainscreen__buttons">
+                  <button class="btn btn-white mainscreen__button" type="button">Онлайн-запись</button>
+                  <button class="btn mainscreen__button btn__transparent" type="button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <div class="__container about__body">
+            <div class="about__left">
+              <div class="caption about__caption">О нас</div>
+              <div class="about__image">
+                <picture>
+                  <source srcset="/images/about_img.webp, /images/about_img@2x.webp 2x" type="image/webp">
+                  <img src="/images/about_img.jpg" srcset="" alt="">
+                </picture>
+              </div>
+            </div>
+            <div class="about__center">
+              <h2 class="title about__title">Перемены <br> в теле начинаются с перемен в душе</h2>
+              <div class="text about__text">
+                <p>Студия оздоровления Dr. Iordanyan открывает для Вас совершенно новый подход к красоте и здоровью.
+                </p>
+                <p>
+                  Мы предоставляем индивидуальный подход к каждому клиенту, гарантируя удовлетворение ваших потребностей
+                  и
+                  достижение ваших целей.
+                </p>
+                <p>Откройте для себя инстинный потенциал вашего организма!</p>
+              </div>
+              <div class="about__footer">
+                <div class="about__block">
+                  <div class="about__author">Анна Иорданян</div>
+                  <div class="about__about">Основательница студии оздоровления</div>
+                </div>
+                <div class="about__image">
+                  <picture>
+                    <source srcset="images/sign.webp 1x,images/sign@2x.webp 2x" type="image/webp">
+                    <img src="images/sign.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="about__right">
+              <picture>
+                <source srcset="images/about_img2.webp 1x,images/about_img2@2x.webp 2x" type="image/webp">
+                <img src="images/about_img2.jpg" srcset="" alt="">
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="directions">
+          <div class="__container directions__top">
+            <div class="caption directions__caption">Направления</div>
+            <div class="directions__center">
+              <h2 class="title directions__title">Топ услуг</h2>
+              <h2 class="text directions__text">Мы создали уникальное место, в котором сочетание первоклассного сервиса
+                и персоанализации позволяет получить желаемый результат в кратчайшие сроки.</h2>
+            </div>
+          </div>
+          <div class="directions__bottom">
+            <!-- <div class="directions__grid directions__grid--desk">
+              <div class="directions__section">
+                <div class="directions__name">Массаж</div>
+                <div class="directions__chapters">
+                  <a href="#" class="directions__chapter">Общий релакс всего тела</a>
+                  <a href="#" class="directions__chapter">Общий релакс всего тела</a>
+                  <a href="#" class="directions__chapter">Релакс для беременных</a>
+                  <a href="#" class="directions__chapter">FACE LIFTING</a>
+                  <button type="button" class="directions__button btn btn-white">Подробнее</button>
+                </div>
+              </div>
+              <div class="directions__section ">
+                <div class="directions__name">Массаж</div>
+                <div class="directions__chapters">
+                  <a href="#" class="directions__chapter">Общий релакс всего тела</a>
+                  <a href="#" class="directions__chapter">Релакс для беременных</a>
+                  <a href="#" class="directions__chapter">FACE LIFTING</a>
+                  <button type="button" class="directions__button btn btn-white">Подробнее</button>
+                </div>
+              </div>
+              <div class="directions__section">
+                <div class="directions__name">Остеокоррекция</div>
+              </div>
+              <div class="directions__section">
+                <div class="directions__name">Игла разума</div>
+              </div>
+              <div class="directions__section">
+                <div class="directions__name">Эстетика</div>
+              </div>
+              <div class="directions__section">
+                <div class="directions__name">SPA-программы</div>
+              </div>
+            </div> -->
+
+
+
+            <!-- v2 -->
+            <div class="directions__grid">
+              <div class="swiper directions__slider">
+                <div class="swiper-wrapper directions__grid-desktop directions__wrapper">
+                  <div class="swiper-slide directions__slide">
+                    <div class="directions__section">
+                      <div class="directions__name">Липопластика</div>
+                      <ul class="directions__chapters">
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Общий релакс всего тела</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Релакс для беременных</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>FACE LIFTING</span></a></li>
+                        <button type="button" class="btn btn-white directions__button">Подробнее</button>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide directions__slide">
+                    <div class="directions__section">
+                      <div class="directions__name">Массаж</div>
+                      <ul class="directions__chapters">
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Общий релакс всего тела</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Релакс для беременных</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>FACE LIFTING</span></a></li>
+                        <button type="button" class="btn btn-white directions__button">Подробнее</button>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide directions__slide">
+                    <div class="directions__section">
+                      <div class="directions__name">Остеокоррекция</div>
+                      <ul class="directions__chapters">
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Общий релакс всего тела</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Релакс для беременных</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>FACE LIFTING</span></a></li>
+                        <button type="button" class="btn btn-white directions__button">Подробнее</button>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide directions__slide">
+                    <div class="directions__section">
+                      <div class="directions__name">Игла разума</div>
+                      <ul class="directions__chapters">
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Общий релакс всего тела</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Релакс для беременных</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>FACE LIFTING</span></a></li>
+                        <button type="button" class="btn btn-white directions__button">Подробнее</button>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide directions__slide">
+                    <div class="directions__section">
+                      <div class="directions__name">Эстетика</div>
+                      <ul class="directions__chapters">
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Общий релакс всего тела</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Релакс для беременных</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>FACE LIFTING</span></a></li>
+                        <button type="button" class="btn btn-white directions__button">Подробнее</button>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide directions__slide">
+                    <div class="directions__section">
+                      <div class="directions__name">SPA-программы</div>
+                      <ul class="directions__chapters">
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Общий релакс всего тела</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>Релакс для беременных</span></a></li>
+                        <li class="directions__item"><a href="#" class="directions__chapter"><span>FACE LIFTING</span></a></li>
+                        <button type="button" class="btn btn-white directions__button">Подробнее</button>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="swiper-pagination"></div>
+                <button type="button" class="swiper-button-prev"></button>
+                <button type="button" class="swiper-button-next"></button>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            
+            </div>
+            <!-- v2 -->
+
+          </div>
+        </section>
+        <section id="reviews" class="__container reviews">
+          <div class="reviews__row">
+            <div class="reviews__left">
+              <div class="caption reviews__caption">Отзывы</div>
+            </div>
+            <div class="reviews__midle">
+              <div class="title reviews__title">Что говорят о нас</div>
+              <p class="text reviews__text">Мы стремимся оказывать качественные услуги с высоким уровнем сервиса. Мы
+                благорадны нашим клиентам за оказанное доверие и положительные отзывы о совместной работе. </p>
+              <div class="reviews__buttons">
+                <button type="submit" class="btn btn-white reviews__button">Все отзывы</button>
+                <button type="submit" class="btn btn-black reviews__button">Оставьте ваш отзыв</button>
+              </div>
+            </div>
+            <div class="reviews__right">
+              <div class="rating reviews__rating">
+                <div class="rating__title">Наш рейтинг</div>
+                <div class="rating__row">
+                  <div class="rating__left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <p>5,0</p>
+                  </div>
+                  <div class="rating__right">на Яндекс</div>
+
+                </div>
+                <div class="rating__row">
+                  <div class="rating__left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.8099L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2636 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2636 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" fill="white"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M16.4883 8.04245L13.3172 10.81L14.2671 14.9303C14.3174 15.1457 14.303 15.3711 14.2259 15.5784C14.1487 15.7857 14.0122 15.9656 13.8333 16.0957C13.6544 16.2258 13.4411 16.3003 13.2202 16.3099C12.9992 16.3194 12.7803 16.2637 12.5909 16.1495L8.99718 13.9698L5.41124 16.1495C5.2218 16.2637 5.0029 16.3194 4.78193 16.3099C4.56095 16.3003 4.34769 16.2258 4.16882 16.0957C3.98994 15.9656 3.85339 15.7857 3.77623 15.5784C3.69907 15.3711 3.68472 15.1457 3.73499 14.9303L4.68351 10.8142L1.51171 8.04245C1.34395 7.89776 1.22264 7.70677 1.163 7.49341C1.10336 7.28006 1.10803 7.05384 1.17644 6.84313C1.24485 6.63243 1.37395 6.44661 1.54754 6.30898C1.72113 6.17134 1.9315 6.08803 2.15226 6.06948L6.33304 5.70737L7.96499 1.81487C8.05021 1.61062 8.19396 1.43616 8.37814 1.31344C8.56231 1.19072 8.77868 1.12524 8.99999 1.12524C9.22131 1.12524 9.43767 1.19072 9.62185 1.31344C9.80602 1.43616 9.94977 1.61062 10.035 1.81487L11.6719 5.70737L15.8512 6.06948C16.072 6.08803 16.2824 6.17134 16.456 6.30898C16.6296 6.44661 16.7587 6.63243 16.8271 6.84313C16.8955 7.05384 16.9001 7.28006 16.8405 7.49341C16.7809 7.70677 16.6595 7.89776 16.4918 8.04245H16.4883Z" stroke="white"/>
+                      <path d="M13.3173 10.3801V10.8099L14.2672 14.9303C14.3175 15.1457 14.3031 15.3711 14.226 15.5784C14.1488 15.7857 14.0123 15.9656 13.8334 16.0957C13.6545 16.2258 13.4413 16.3003 13.2203 16.3099C12.9993 16.3194 12.7804 16.2636 12.591 16.1495L8.9973 13.9698L5.41136 16.1495C5.22192 16.2636 5.00303 16.3194 4.78205 16.3099C4.56107 16.3003 4.34781 16.2258 4.16894 16.0957C3.99006 15.9656 3.85351 15.7857 3.77635 15.5784C3.69919 15.3711 3.68485 15.1457 3.73511 14.9303L4.68363 10.8142L1.51183 8.04245C1.34407 7.89776 1.22276 7.70677 1.16312 7.49341C1.10348 7.28006 1.10815 7.05384 1.17656 6.84313C1.24497 6.63243 1.37407 6.44661 1.54766 6.30898C1.72126 6.17134 1.93162 6.08803 2.15238 6.06948L6.33316 5.70737L7.96511 1.81487C8.05034 1.61062 8.19409 1.43616 8.37826 1.31344C8.56244 1.19072 8.7788 1.12524 9.00011 1.12524C9.22143 1.12524 9.43779 1.19072 9.62197 1.31344C9.80614 1.43616 9.94989 1.61062 10.0351 1.81487L11.672 5.70737L12.5 6C12.3264 5.86237 12.7208 6.01855 12.5 6C12.4316 5.78929 12.6736 6.13763 12.5 6C12.5684 6.21071 13.3769 10.1668 13.3173 10.3801C13.4851 10.2355 13.2577 10.5935 13.3173 10.3801Z" fill="white"/>
+                      </svg>
+                    <p>4,9</p>
+                  </div>
+                  <div class="rating__right">в Google</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__bottom">
+            <div class="comment reviews__comment">
+              <div class="comment__left">
+                <div class="comment__author">Алина Макарова
+                </div>
+                <div class="comment__date">27 марта 2023</div>
+              </div>
+              <div class="comment__right">
+                <p class="text comment__text">Хочу сказать огромное спасибо Анне. Эта невероятная девушка избавила меня
+                  от диких болей в ногах и спине за 3 сеанса остео. Результат бомба. Анечка, ты просто чудо. Обязательно
+                  встретимся еще!</p>
+              </div>
+
+            </div>
+            <div class="comment reviews__comment">
+              <div class="comment__left">
+                <div class="comment__author">Лиза Емельянова
+                </div>
+                <div class="comment__date">26 марта 2023</div>
+              </div>
+              <div class="comment__right">
+                <p class="text comment__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: экономическая повестка сегодняшнего дня представляет собой интересный эксперимент проверки своевременного выполнения.</p>
+              </div>
+
+            </div>
+            <div class="comment reviews__comment">
+              <div class="comment__left">
+                <div class="comment__author">Марина Смелова
+                </div>
+                <div class="comment__date">25 марта 2023</div>
+              </div>
+              <div class="comment__right">
+                <p class="text comment__text">Господа, семантический разбор внешних противодействий позволяет оценить значение системы обучения кадров, соответствующей насущным потребностям. Повседневная практика показывает, 
+                  что современная методология разработки играет важную.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+        <section id="results" class="results">
+          <div class="__container results__top">
+            <div class="caption results__caption">результаты нашей работы</div>
+            <div class="results__center">
+              <div class="title results__title">До и после</div>
+              <div class="text results__text">Помогаем нашим клиентам достичь потрясающих результатов!</div>
+              <div class="results__buttons">
+                <button type="submit" class="btn btn-black results__button">Онлайн-запись</button>
+                <button type="submit" class="btn btn-white results__button"> Все работы</button>
+              </div>
+            </div>
+          </div>
+          <div class="results__bottom">
+            <div class="swiper results__slider">
+              <div class="swiper-wrapper results__wrapper">
+                <div class="swiper-slide results__slide">
+                  <picture>
+                    <source srcset="images/res1.webp, images/res1@2x.webp 2x" type="image/webp">
+                    <img src="images/res1.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide results__slide">
+                  <picture>
+                    <source srcset="images/res2.webp, images/res2@2x.webp 2x" type="image/webp">
+                    <img src="images/res2.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide results__slide">
+                  <picture>
+                    <source srcset="images/res3.webp, images/res3@2x.webp 2x" type="image/webp">
+                    <img src="images/res3.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="swiper-slide results__slide">
+                  <picture>
+                    <source srcset="images/res4.webp, images/res4@2x.webp 2x" type="image/webp">
+                    <img src="images/res4.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <button type="button" class="swiper-button-prev"></button>
+              <button type="button" class="swiper-button-next"></button>
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="specialists" class="specialists">
+          <div class="__container specialists__top">
+            <div class="caption specialists__caption">Специалисты</div>
+            <div class="specialists__center">
+              <div class="title specialists__title">Команда профессионалов</div>
+              <div class="text specialists__text">Все специалисты в одном месте для решения вашей проблемы.</div>
+            </div>
+          </div>
+          <div class="specialists__image">
+            <picture style="display: block; width: 100%;">
+              <source media="(max-width: 992px)" srcset="images/specialists-mob@2x.jpg">
+              <img src="images/specialists.jpg" srcset="" alt="">
+            </picture>
+            <div class="specialists__tip tip">
+              <div class="specialists__touch"></div>
+              <div class="specialists__body">
+                <div class="specialists__name">Марина Семенова</div>
+                <div class="specialists__desc">Специалист по массажу
+                  и реабилитолог</div>
+              </div>
+            </div>
+            <div class="specialists__tip tip">
+              <div class="specialists__touch"></div>
+              <div class="specialists__body">
+                <div class="specialists__name">Марина Семенова</div>
+                <div class="specialists__desc">Специалист по массажу
+                  и реабилитолог</div>
+              </div>
+            </div>
+            <div class="specialists__tip tip">
+              <div class="specialists__touch"></div>
+              <div class="specialists__body">
+                <div class="specialists__name">Марина Семенова</div>
+                <div class="specialists__desc">Специалист по массажу
+                  и реабилитолог</div>
+              </div>
+            </div>
+            <div class="specialists__tip tip">
+              <div class="specialists__touch"></div>
+              <div class="specialists__body">
+                <div class="specialists__name">Марина Семенова</div>
+                <div class="specialists__desc">Специалист по массажу
+                  и реабилитолог</div>
+              </div>
+            </div>
+            <div class="specialists__tip tip">
+              <div class="specialists__touch"></div>
+              <div class="specialists__body">
+                <div class="specialists__name">Марина Семенова</div>
+                <div class="specialists__desc">Специалист по массажу
+                  и реабилитолог</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="news" class="news">
+          <div class="__container news__top">
+            <div class="caption news__caption"> Здесь интересно</div>
+            <div class="news__center">
+              <div class="title news__title">Новости студии и полезные статьи</div>
+              <div class="text news__text">Экспертные статьи от ведущих специалистов и главные новости нашей студии
+                оздоровления.</div>
+              <div class="news__buttons">
+                <button class="btn btn-white news__button">Все новости</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper news__slider">
+            <div class="swiper-wrapper news__wrapper">
+              <a href="" class="swiper-slide news__slide slide">
+                <div class="slide__image">
+                  <picture>
+                    <source srcset="images/new1.webp, images/new1@2x.webp 2x" type="image/webp">
+                    <img src="images/new1.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="slide__caption">новости</div>
+                <div class="slide__bottom">
+                  <div class="slide__title">Треугольник смерти</div>
+                  <div class="text slide__text">Единственное место на вашем лице, где вы никогда не должны выдавливать
+                    прыщи...</div>
+                </div>
+              </a>
+              <a href="" class="swiper-slide news__slide slide">
+                <div class="slide__image">
+                  <picture>
+                    <source srcset="images/new2.webp, images/new2@2x.webp 2x" type="image/webp">
+                    <img src="images/new2.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <!-- <div class="slide__caption">новости</div> -->
+                <div class="slide__bottom">
+                  <div class="slide__title">Где витамина D больше?</div>
+                  <div class="text slide__text">9 фактов про витамин D, о которых вы должны знать.</div>
+                </div>
+              </a>
+              <a href="" class="swiper-slide news__slide slide">
+                <div class="slide__image">
+                  <picture>
+                    <source srcset="images/new3.webp, images/new3@2x.webp 2x" type="image/webp">
+                    <img src="images/new3.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="slide__caption">уход за кожей</div>
+                <div class="slide__bottom">
+                  <div class="slide__title">Карбокситерапия лица</div>
+                  <div class="text slide__text">Карбокситерапия лица – современная прогрессивная процедура омоложения...</div>
+                </div>
+              </a>
+              <a href="" class="swiper-slide news__slide slide">
+                  <div class="slide__image">
+                    <picture>
+                      <source srcset="images/new4.webp, images/new4@2x.webp 2x" type="image/webp">
+                      <img src="images/new4.jpg" srcset="" alt="">
+                    </picture>
+                  </div>
+                  <!-- <div class="slide__caption">новости</div> -->
+                  <div class="slide__bottom">
+                    <div class="slide__title">Мы открываем новый филиал!</div>
+                    <div class="text slide__text">Дорогие, наши клиенты! Рады сообщить, что 
+                      в городе Брянск по адресу...</div>
+                  </div>
+              </a>
+              <a href="" class="swiper-slide news__slide slide">
+                <div class="slide__image">
+                  <picture>
+                    <source srcset="images/new1.webp, images/new1@2x.webp 2x" type="image/webp">
+                    <img src="images/new1.jpg" srcset="" alt="">
+                  </picture>
+                </div>
+                <div class="slide__caption">новости</div>
+                <div class="slide__bottom">
+                  <div class="slide__title">Треугольник смерти</div>
+                  <div class="text slide__text">Единственное место на вашем лице, где вы никогда не должны выдавливать
+                    прыщи...</div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-prev"></button>
+            <button type="button" class="swiper-button-next"></button>
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
+        <section class="__container empty">
+          <div class="empty__center">
+            <h2 class="title empty__title">Заголовок H1 для SEO</h2>
+            <p class="text empty__text">Следует отметить, что экономическая повестка сегодняшнего дня требует определения
+              и уточнения дальнейших направлений развития. Вот вам яркий пример современных тенденций — базовый вектор
+              развития обеспечивает широкому кругу (специалистов) участие в формировании первоочередных требований.
+              Учитывая ключевые сценарии поведения, новая модель организационной деятельности представляет собой
+              интересный эксперимент проверки модели развития. Как уже неоднократно упомянуто, сделанные на базе
+              интернет-аналитики выводы набирают популярность среди определенных слоев населения, а значит, должны быть
+              рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.
+            </p>
+            <p class="text empty__text">Предварительные выводы неутешительны: повышение уровня гражданского сознания
+              обеспечивает актуальность экспериментов, поражающих по своей масштабности и грандиозности. Но
+              реплицированные с зарубежных источников, современные исследования формируют глобальную экономическую сеть и
+              при этом — объективно рассмотрены соответствующими инстанциями. Прежде всего, понимание сути
+              ресурсосберегающих технологий способствует повышению качества дальнейших.
+            </p>
+          </div>
+        </section>
+        <section id="map" class="map">
+        
+          <div id="wrapMap" class="map__body">
+            <iframe style="pointer-events: none;" class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A5bbbdaaf2cad25f031ba7d33f6d82fa9c8f0f3c2afa7ca28859b8cf0c7ef8ca7&amp;source=constructor" width="1018" height="773" frameborder="0"></iframe>
+          </div>
+          <div class="map__info">
+            <span class="map__line">
+              <img src="images/1.svg" alt="">
+            </span>
+            <span class="map__line">
+              <img src="images/1.svg" alt="">
+            </span>
+            <span class="map__line">
+              <img src="images/1.svg" alt="">
+            </span>
+      
+            <div class="map__column">
+              <div class="map__title">Время работы</div>
+              <div class="map__subtitle"> ежедневно с 10:00 до 20:00</div>
+            </div>
+            <div class="map__column">
+              <div class="map__title"> Адрес салона</div>
+              <div class="map__subtitle">Брянск, ул. Дуки, д. 75</div>
+            </div>
+            <div class="map__column">
+              <div class="map__title">Телефон</div>
+              <div class="map__subtitle">+7 (919) 193-75-77</div>
+            </div>
+            <div class="map__column">
+              <div class="map__title">Мы в соцсетях</div>
+              <div class="map__icons">
+                <a href="https://vk.com/" class="map__icon">
+                  <img src="images/vkw.svg" srcset="" alt="">
+                </a>
+                <a href="http://t.me/" class="map__icon">
+                  <img src="images/tgw.svg" srcset="" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div data-popup="popup" aria-hidden="true" class="_overlay-bg popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="button-close popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div>
+    <footer class="footer">
+  <div class="footer__body">
+    <div class="__container footer__top">
+      <div class="footer__logo">
+        <a href="#mainpage">
+          <img src="images/logo_footer.svg" alt="">
+        </a>
+      </div>
+      <div class="footer__services services">
+          <ul class="services__menu">
+            <a href="#" class="services__link">
+              <li class="services__item">Липопластика</li>
+            </a>
+            <a href="#" class="services__link">
+              <li class="services__item">Остеокоррекция</li>
+            </a>
+            <a href="#" class="services__link">
+              <li class="services__item">Релакс</li>
+            </a>
+            <a href="#" class="services__link">
+              <li class="services__item">Игла разума</li>
+            </a>
+            <a href="#" class="services__link">
+              <li class="services__item">Эстетика</li>
+            </a>
+            <a href="#" class="services__link">
+              <li class="services__item">SPA-программы</li>
+            </a>
+            <a href="#" class="services__link">
+              <li class="services__item">Сертификаты</li>
+            </a>
+          </ul>
+      </div>
+      <div class="footer__nav nav-footer">
+        <ul class="nav-footer__menu">
+          <a href="#about" class="nav-footer__link">
+            <li class="nav-footer__item">О нас</li>
+          </a>
+          <a href="#specialists" class="nav-footer__link">
+            <li class="nav-footer__item">Специалисты</li>
+          </a>
+          <a href="#" class="nav-footer__link">
+            <li class="nav-footer__item">Прайс</li>
+          </a>
+          <a href="#results" class="nav-footer__link">
+            <li class="nav-footer__item">До и после</li>
+          </a>
+          <a href="#reviews" class="nav-footer__link">
+            <li class="nav-footer__item">Отзывы</li>
+          </a>
+          <a href="#" class="nav-footer__link">
+            <li class="nav-footer__item">Акции</li>
+          </a>
+          <a href="#news" class="nav-footer__link">
+            <li class="nav-footer__item">Блог</li>
+          </a>
+          <a href="#map" class="nav-footer__link">
+            <li class="nav-footer__item">Контакты</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footer__buttons">
+        <button type="submit" class="btn btn-black footer__button">
+          Онлайн-запись
+        </button>
+        <button type="submit" class="btn btn-white footer__button">
+          Подписаться на рассылку
+        </button>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__text">Обращаем внимание потребителей, что текст на сайте носит информационно-просветительский характер. 
+        Никакие описанные примеры результатов улучшения состояния тела,  фото- и видеоматериалы не могут рассматриваться как ориентир возможного достижимого эффекта.</div>
+      <div class="footer__row">
+          <div class="footer__copy"> © 2023 «Студия оздоровления Dr. Iordanyan». Все права защищены законом об авторском праве.</div>
+          <div class="footer__policy">
+            <a href="" class="footer__link"><span>Политика в отношении обработки персональных данных</span></a>
+            <a href="" class="footer__link"><span>Публичная оферта на оказание услуг</span></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="js/app.min.js"></script>
+</body>
+<!-- <div data-type="popup">Click modal</div> -->
+
+
+
+
+
+
+
+
+</html>
