@@ -2132,7 +2132,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     padding: 0 15px;
   }
 }
-@media (min-width: 79.99875em) {
+@media (min-width: 47.99875em) {
   [class*=__container] {
     padding: 0 30px;
   }
@@ -2264,7 +2264,6 @@ img {
   font-size: 40px;
   font-weight: 500;
   line-height: 110%;
-  max-width: 560px;
   margin-bottom: 30px;
   /* 44px */
 }
@@ -2298,8 +2297,12 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 140%;
-  max-width: 560px;
   /* 25.2px */
+}
+@media (min-width: 61.99875em) {
+  .text {
+    max-width: 560px;
+  }
 }
 
 section:not(.mainscreen) {
@@ -2704,8 +2707,8 @@ section:not(.mainscreen) {
   flex-flow: column nowrap;
   left: 0;
   width: 100%;
-  min-height: 100lvh;
-  height: 100lvh;
+  min-height: 100svh;
+  height: 100svh;
   background-color: transparent;
   transition: all 0.3s ease 0s;
   overflow: auto;
@@ -3687,7 +3690,6 @@ section:not(.mainscreen) {
 .reviews__buttons {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
   align-items: center;
   gap: 15px;
 }
@@ -3746,7 +3748,6 @@ section:not(.mainscreen) {
 }
 .reviews__right {
   display: flex;
-  justify-content: center;
 }
 @media (min-width: 61.99875em) {
   .reviews__right {
